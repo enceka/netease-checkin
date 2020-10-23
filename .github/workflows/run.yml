@@ -3,12 +3,9 @@ name: 签到
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
   schedule:
-    - cron: 10 23,11 * * *
-  watch:
-    types: started
+    - cron: 15 23,11 * * *
+
 
 jobs:
   build:
