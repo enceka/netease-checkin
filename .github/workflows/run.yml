@@ -1,10 +1,8 @@
 name: 签到
 
 on:
-  push:
-    branches: [ master ]
   schedule:
-    - cron: 15 23,11 * * *
+    - cron: '15 23,11 * * *'
 
 
 jobs:
