@@ -2,7 +2,8 @@ name: 签到
 
 on:
   schedule:
-    - cron: '30 23,11 * * *'
+    - cron: '33 23,11 * * *'
+  watch: started
 
 
 jobs:
