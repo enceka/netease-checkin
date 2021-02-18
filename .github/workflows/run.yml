@@ -3,7 +3,7 @@ name: 签到
 on:
  
   schedule:
-    - cron: '50 23,11 * * *'
+    - cron: '50 23,11,18 * * *'
   watch: 
     types: started
 
